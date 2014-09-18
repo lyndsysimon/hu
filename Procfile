@@ -1,1 +1,1 @@
-web: bin/hubot -a flowdock -n Eulemont
+web: bin/hubot -a flowdock -n Hu
