@@ -11,4 +11,4 @@ module.exports = (robot) ->
       robot.http(api_url + "today").get() (err, res, body) ->
         today = JSON.parse(body).value
 
-        msg.send "We got " + yesterday + " hits yesterday; we've gotten " + today + " hits so far today.
+        msg.send "We got " + yesterday + " hits yesterday; we've gotten " + today + " hits so far today."
